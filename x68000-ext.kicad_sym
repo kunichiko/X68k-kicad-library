@@ -14816,7 +14816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCIC" "C2922787"
+		(property "LCSC" "C2922787"
 			(at 0 0 0)
 			(effects
 				(font

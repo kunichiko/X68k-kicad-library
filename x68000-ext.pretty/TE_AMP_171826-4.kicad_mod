@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -173,7 +173,7 @@
 	)
 	(fp_line
 		(start -6.25 2.25)
-		(end -6.25 -11.25)
+		(end -6.25 -4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -192,8 +192,8 @@
 		(uuid "d8f1a7df-b710-4ddf-87c4-37d58cc01dca")
 	)
 	(fp_line
-		(start 6.25 -11.25)
-		(end -6.25 -11.25)
+		(start 6.25 -4)
+		(end -6.25 -4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -203,7 +203,7 @@
 	)
 	(fp_line
 		(start 6.25 2.25)
-		(end 6.25 -11.25)
+		(end 6.25 -4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -319,6 +319,39 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "7a696fc4-7c4c-49f7-94ef-10c5cfc66654")
+		(pts
+			(xy -6.25 2.25) (xy 6.25 2.25)
+		)
+		(height 2.95)
+		(gr_text "12.5000 mm"
+			(at 0 4.05 0)
+			(layer "Cmts.User")
+			(uuid "7a696fc4-7c4c-49f7-94ef-10c5cfc66654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)

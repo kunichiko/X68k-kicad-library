@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x17_P2.54mm_Horizontal_Mirror"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 2x17, 2.54mm pitch, 6mm pin length, double rows")
 	(tags "Through hole angled pin header THT 2x17 2.54mm double row")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "12ab06d8-50c2-46e9-bb79-7ac04a224a0e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -968,66 +955,6 @@
 		(uuid "5a644038-c544-4564-bbcd-29125b69e02f")
 	)
 	(fp_line
-		(start 6.64 -0.32)
-		(end 12.64 -0.32)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "81c770ff-0e05-485b-b4d9-b80741e98916")
-	)
-	(fp_line
-		(start 6.64 -0.2)
-		(end 12.64 -0.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b33cb526-758c-4faa-9575-855af19588ef")
-	)
-	(fp_line
-		(start 6.64 -0.08)
-		(end 12.64 -0.08)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a29cb49a-92b3-4798-815b-3a14f8951ea9")
-	)
-	(fp_line
-		(start 6.64 0.04)
-		(end 12.64 0.04)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e6fbbb7a-0ec3-4c48-97df-1a9baf29b88c")
-	)
-	(fp_line
-		(start 6.64 0.16)
-		(end 12.64 0.16)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c57734fd-14d8-41ca-917b-12a1e53ac5d3")
-	)
-	(fp_line
-		(start 6.64 0.28)
-		(end 12.64 0.28)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8265b463-7596-48af-8d20-71feef6e8a79")
-	)
-	(fp_line
 		(start 6.64 2.16)
 		(end 12.64 2.16)
 		(stroke
@@ -1536,6 +1463,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "0b8e993e-ecc2-4a43-825d-e27252ed40e3")
+	)
+	(fp_rect
+		(start 6.731 40.259)
+		(end 12.573 41.021)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "755aca05-823a-49eb-8d02-249dedec8038")
 	)
 	(fp_line
 		(start -1.8 -1.8)
@@ -2930,6 +2868,7 @@
 		(remove_unused_layers no)
 		(uuid "f097fcf6-47df-4588-ba41-f605572a6e3c")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x17_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

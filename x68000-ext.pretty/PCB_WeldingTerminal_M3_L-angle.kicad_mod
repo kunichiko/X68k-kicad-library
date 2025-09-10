@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/product-detail/C962334.html"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

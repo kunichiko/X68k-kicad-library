@@ -1,7 +1,7 @@
 (footprint "PinSocket_2x17_P2.54mm_Horizontal_Mirror"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled socket strip, 2x17, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated")
 	(tags "Through hole angled socket strip THT 2x17 2.54mm double row")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55e4edf3-1834-4d28-bc76-808e7fc431dc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -86,216 +73,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6648d687-6976-453f-a5da-74fc40ec9233")
-	)
-	(fp_line
-		(start -12.63 -1.21)
-		(end -4 -1.21)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "972a0263-6b8c-4fe6-aff2-8dc57dbf4a98")
-	)
-	(fp_line
-		(start -12.63 -1.091905)
-		(end -4 -1.091905)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "24191ad8-b2ab-4147-998f-6692f6329a05")
-	)
-	(fp_line
-		(start -12.63 -0.97381)
-		(end -4 -0.97381)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ddf357c4-6f09-46ad-9eca-e104c3bc741e")
-	)
-	(fp_line
-		(start -12.63 -0.855715)
-		(end -4 -0.855715)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f2672df6-26d4-4651-8de3-17b564d27f6d")
-	)
-	(fp_line
-		(start -12.63 -0.73762)
-		(end -4 -0.73762)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "38dff4a8-0f47-4f22-aeaa-6502d4ea5efb")
-	)
-	(fp_line
-		(start -12.63 -0.619525)
-		(end -4 -0.619525)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f6ad9c6a-6014-41ba-86d1-d262ef3a56d4")
-	)
-	(fp_line
-		(start -12.63 -0.50143)
-		(end -4 -0.50143)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1c0fdf70-6dd0-4e41-9646-bf5eadda4764")
-	)
-	(fp_line
-		(start -12.63 -0.383335)
-		(end -4 -0.383335)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ad691d1c-4b23-4d72-ba8a-0f4abae93503")
-	)
-	(fp_line
-		(start -12.63 -0.26524)
-		(end -4 -0.26524)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9bf88954-823d-48cc-87c8-cc5df3f191d9")
-	)
-	(fp_line
-		(start -12.63 -0.147145)
-		(end -4 -0.147145)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "33794a29-83ab-40a7-b29f-9c8961685c05")
-	)
-	(fp_line
-		(start -12.63 -0.02905)
-		(end -4 -0.02905)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "858e780f-ae81-4d22-ad2c-79e08b4c921a")
-	)
-	(fp_line
-		(start -12.63 0.089045)
-		(end -4 0.089045)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "79e46fd9-402f-4d67-a7b9-b1b14bb21cd9")
-	)
-	(fp_line
-		(start -12.63 0.20714)
-		(end -4 0.20714)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e6ea8d47-a0c4-4b84-a2ca-6cfb2d8de62f")
-	)
-	(fp_line
-		(start -12.63 0.325235)
-		(end -4 0.325235)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "914b177c-7490-44f8-b5fa-4084b2f16c46")
-	)
-	(fp_line
-		(start -12.63 0.44333)
-		(end -4 0.44333)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8b388e53-5229-4cc1-97d6-950ddcb198d7")
-	)
-	(fp_line
-		(start -12.63 0.561425)
-		(end -4 0.561425)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "144e328e-9c1a-47c3-a889-2dd9fbe68f85")
-	)
-	(fp_line
-		(start -12.63 0.67952)
-		(end -4 0.67952)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d28a4638-2645-4e64-80a3-0ef776353730")
-	)
-	(fp_line
-		(start -12.63 0.797615)
-		(end -4 0.797615)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "27b9ff33-da45-46fa-9980-a99b4661989a")
-	)
-	(fp_line
-		(start -12.63 0.91571)
-		(end -4 0.91571)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "df1c2353-3972-408e-b915-641a5ab6bc82")
-	)
-	(fp_line
-		(start -12.63 1.033805)
-		(end -4 1.033805)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4b1837f3-9373-4ac5-a972-a3f961c067cd")
-	)
-	(fp_line
-		(start -12.63 1.1519)
-		(end -4 1.1519)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0bebfacd-a0c6-412e-88cd-0236cd66779c")
 	)
 	(fp_line
 		(start -12.63 1.27)
@@ -1176,6 +953,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "252ee59f-6f25-46e3-83ef-28a468fed6c3")
+	)
+	(fp_rect
+		(start -12.63 39.37)
+		(end -4 41.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6ff622d6-e224-4114-9a08-b9c2257c0ebe")
 	)
 	(fp_line
 		(start -13.05 -1.75)
@@ -2060,6 +1848,7 @@
 		(remove_unused_layers no)
 		(uuid "96934761-3b8f-4a7c-a830-6de52daa5646")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x17_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

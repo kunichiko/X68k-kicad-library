@@ -9019,7 +9019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LQFP:LQFP-48-1EP_7x7mm_P0.5mm"
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 3.556 -49.022 0)
 			(effects
 				(font
@@ -9037,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "48MHz RISC-V MCU with USB PD phy (Sink, Source, DRP), USB 2.0 Full speed phy (Host, Device), 20KB RAM, 62KB Flash, WQFN-28"
+		(property "Description" "48MHz RISC-V MCU with USB PD phy (Sink, Source, DRP), USB 2.0 Full speed phy (Host, Device), 20KB RAM, 62KB Flash"
 			(at -6.35 -52.07 0)
 			(effects
 				(font
@@ -9236,6 +9236,7 @@
 						)
 					)
 				)
+				(alternate "MISO_1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -15.24 1.27 0)
@@ -9254,6 +9255,8 @@
 						)
 					)
 				)
+				(alternate "MISO_2" bidirectional line)
+				(alternate "MOSI_1" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -15.24 -1.27 0)
@@ -9272,6 +9275,7 @@
 						)
 					)
 				)
+				(alternate "MOSI_2" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -15.24 -3.81 0)

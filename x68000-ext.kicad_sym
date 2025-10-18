@@ -9120,7 +9120,7 @@
 						)
 					)
 				)
-				(alternate "T2C3" bidirectional line)
+				(alternate "TIM2CH3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -15.24 17.78 0)
